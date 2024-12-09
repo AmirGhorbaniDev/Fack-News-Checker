@@ -2,6 +2,10 @@
 # Fake News Detection System
 
 A machine learning-based system that detects fake news using article titles. Built with Python, scikit-learn, and Streamlit.
+<img width="1429" alt="Screenshot 2024-12-09 at 11 54 38" src="https://github.com/user-attachments/assets/57c06876-90ec-494c-aa89-1adfc684a7c0">
+<img width="1456" alt="Screenshot 2024-12-09 at 11 54 47" src="https://github.com/user-attachments/assets/9fa9736a-2563-4bc1-849c-4d07d3e06870">
+<img width="1448" alt="Screenshot 2024-12-09 at 11 56 03" src="https://github.com/user-attachments/assets/b64c2e32-87bf-446b-9601-e5269728f5b5">
+
 
 ---
 
