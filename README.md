@@ -6,7 +6,7 @@ This project implements a fake news detection system using TF-IDF vectorization 
 ---
 ## Project Structure
 
-Fack-News-Checker/
+```Fack-News-Checker/
 │
 ├── Dataset/
 │   ├── evaluation.csv
@@ -18,7 +18,7 @@ Fack-News-Checker/
 ├── fake_news_model.joblib
 ├── tfidf_vectorizer.joblib
 ├── Model.ipynb
-└── requirements.txt
+└── requirements.txt```
 ---
 ## Dataset Information
 
@@ -42,21 +42,21 @@ Joblib
 
 ###Clone the repository
 
-git clone https://github.com/yourusername/Fack-News-Checker.git
-cd Fack-News-Checker
+``` git clone https://github.com/yourusername/Fack-News-Checker.git
+cd Fack-News-Checker ```
 
-Create and activate virtual environment
-python -m venv .venv
+``` Create and activate virtual environment
+python -m venv .venv ```
 
-# Windows
+``` # Windows
 .venv\Scripts\activate
 
 # macOS/Linux
-source .venv/bin/activate
+source .venv/bin/activate ```
 
 ### Install required packages
 
-pip install -r requirements.txt
+``` pip install -r requirements.txt ```
 
 ---
 
@@ -85,41 +85,41 @@ Responsive design
 
 ### File Descriptions
 
-app.py: Streamlit dashboard implementation
+``` app.py: Streamlit dashboard implementation
 fake_news_model.joblib: Trained model file
 tfidf_vectorizer.joblib: Fitted TF-IDF vectorizer
 Model.ipynb: Model development notebook
 requirements.txt: Required Python packages
-Dataset/: Contains training and evaluation data
+Dataset/: Contains training and evaluation data ```
 ---
 
 ## Requirements
-streamlit
-pandas
-scikit-learn
-plotly
-joblib
+- streamlit
+- pandas
+- scikit-learn
+- plotly
+- joblib
 
 ---
 ## Future Improvements
 
-Implement advanced NLP techniques
-Add support for multiple languages
-Include URL-based news verification
-Enhance visualization capabilities
-Add model performance metrics dashboard
+- Implement advanced NLP techniques
+- Add support for multiple languages
+- Include URL-based news verification
+- Enhance visualization capabilities
+- Add model performance metrics dashboard
 
 ## Contributing
 
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+- Fork the repository
+- Create your feature branch (git checkout -b feature/AmazingFeature)
+- Commit your changes (git commit -m 'Add some AmazingFeature')
+- Push to the branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
 
 ## Acknowledgments
 
-Dataset sources from Kaggle
-Streamlit for the awesome framework
-scikit-learn for machine learning tools
+- Dataset sources from Kaggle
+- Streamlit for the awesome framework
+- scikit-learn for machine learning tools
 
